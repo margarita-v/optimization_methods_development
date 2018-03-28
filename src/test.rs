@@ -1,7 +1,5 @@
-extern crate optimization_methods_development;
-
-use optimization_methods_development::methods::{segment_division, golden_section};
-use optimization_methods_development::functions::{sample_func};
+use methods::{segment_division, golden_section};
+use functions::{sample_func};
 
 const A: f64 = 1.0;
 const B: f64 = 5.0;
